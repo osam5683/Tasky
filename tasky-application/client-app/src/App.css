@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Saira:wght@500&family=Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+Body {
+  
+  /* margin: 0; */
+  
+    background: linear-gradient(to bottom,  #50afed 0%, #d78c8c 20%);
+
+    
+  
+} 
+
+.content {
+  margin: 0;
+   background-color: rgb(145, 135, 235); 
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: last baseline;
+
+  color: #4e5a50;
+  font-family: Helvetica;
+  font-weight: 300;
+  justify-content: space-between;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+   background-color: linear-gradient(to bottom,  #50afed 0%, #d78c8c 20%);
+  border-radius: 2px;
+   
+  margin-right: 5px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 13px 20px;
+  text-decoration: none;
+  float: right;
+  font-weight: bolder;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  font-weight: lighter;
+  color: white;
+}
+
+
+ 
+
+/* #logo {
+  padding: 0px 0 0 70px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 10px;
+  padding-top: 50px;
+   text-align: center;
+   padding-left: 800px;
+} */
+
+
+.content {
+  color: #6d8b74;
+  font-family: "Outfit", sans-serif;
+
+  margin: 0px 0px 0px 70px;
+}
+
+.tag {
+  padding-top: 150px;
+  font-size: 50px;
+  color:rgb(0, 0, 0);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  /* background-color: rgb(145, 135, 235); */
+}
+
+.tag-sub {
+  
+  border-top: 20px;
+
+  padding-top: 20px;
+  font-size: 30px;
+  color: black;
+  font-family: "Saira", sans-serif;
+}
+
+
+img.Anima{
+  margin-top: -20%;
+  padding-left: 1100px;
+  
+}
+
+ button{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #93b8d0;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size:x-large;
+  
+ }
+  
+ 
+  .footer{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 38px;
+  
+    text-align: center;
+  }
+
+  form {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    box-shadow: 0 15px 25px gray;
+    margin-left: 50px;
+     margin-top: 30px; 
+    border-radius: 19px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px 20px;
+    margin: 5px;
+    width: 75%;
+    font-weight:lighter  ;
+    font-family:'Times New Roman', Times, serif;
+    border: #000000 1.5px solid;
+    border-radius: 8px;
+  }
+
+  .reg-form {
+    
+    margin-top: 80px;
+  }
+   h1{
+    padding-top: 10px;
+    
+   }
+  
+ 
